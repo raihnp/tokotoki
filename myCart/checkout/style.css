@@ -1,0 +1,231 @@
+@import "https://fonts.googleapis.com/css?family=Nunito";
+
+body {
+    font-family: 'Nunito';
+    background-color: #C4C4C4;
+}
+
+.bg-dark {
+    background-color: #2E2E2E;
+    color: #E3E3E3
+}
+
+.search-input {
+    border-radius: 50px !important;
+    padding-left: 25px !important;
+}
+
+.search-button {
+    margin-left: -50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button span {
+    font-size: 25px;
+    color: #2E2E2E;
+}
+
+.nav-button {
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-button span {
+    font-size: 35px;
+    color: #2E2E2E;
+}
+
+.dropdown-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 25px 0 !important;
+}
+
+.dropdown-menu.show {
+    left: -13px !important;
+    top: 50px !important;
+
+}
+
+.dropdown-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img :hover {
+    border-radius: 28px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #C4C4C4;
+}
+
+.container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding-top: 40px;
+}
+
+.box {
+    background-color: #E3E3E3;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px -5px, rgba(0, 0, 0, 0.04) 0px 10px 5px -5px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+/* leftbox */
+
+#leftbox {
+    width: 75%;
+    margin-right: 30px;
+    padding: 10px 30px 30px;
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#leftbox .title {
+    height: 35px;
+    border-bottom: 1px solid #A5A5A5;
+}
+
+.products-detail {
+    height: 415px;
+    overflow-y: scroll;
+}
+
+.products-detail::-webkit-scrollbar {
+    width: 20px;
+}
+
+.products-detail::-webkit-scrollbar-track {
+    background-color: #d8d7d7;
+    border-radius: 100px;
+}
+
+.products-detail::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 7px solid transparent;
+    background-clip: content-box;
+    background-color: #818181;
+}
+
+.product {
+    background-color: #C4C4C4;
+    border: 1px solid #929292;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.product-image {
+    width: 120px;
+    height: 110px;
+    border-radius: 15px;
+    border: 1px solid #A5A5A5;
+    background-color: #d3d3d3;
+}
+
+.product-image img {
+    width: auto;
+    height: 100%;
+}
+
+.product-detail {
+    width: 290px;
+    padding-left: 20px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.subtotal {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Rightbox */
+
+#rightbox {
+    width: 70%;
+    padding: 20px 40px 30px;
+}
+
+#rightbox .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-shipping {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.total-payment {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.total-payment .attribute {
+    font-size: 18px;
+}
+
+.total-payment .value {
+    font-size: 20px;
+    color: red;
+}
+
+.value {
+    text-align: right;
+}
+
+.order {
+    border: none;
+    outline: none;
+    background-color: #FEBE36;
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2E2E2E;
+    color: #E3E3E3;
+    margin-top: 65px;
+    padding: 20px;
+}

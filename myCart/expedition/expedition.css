@@ -1,0 +1,176 @@
+@import "https://fonts.googleapis.com/css?family=Nunito";
+
+body {
+    font-family: 'Nunito';
+    background-color: #C4C4C4;
+}
+
+.bg-dark {
+    background-color: #2E2E2E;
+    color: #E3E3E3
+}
+
+.search-input {
+    border-radius: 50px !important;
+    padding-left: 25px !important;
+}
+
+.search-button {
+    margin-left: -50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button span {
+    font-size: 25px;
+    color: #2E2E2E;
+}
+
+.nav-button {
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-button span {
+    font-size: 35px;
+    color: #2E2E2E;
+}
+
+.dropdown-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 25px 0 !important;
+}
+
+.dropdown-menu.show {
+    left: -13px !important;
+    top: 50px !important;
+
+}
+
+.dropdown-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img :hover {
+    border-radius: 28px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #C4C4C4;
+}
+
+.container {
+    height: 422px;
+    padding-top: 70px;
+}
+
+.expedition {
+    background-color: #E3E3E3;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 5px -5px;
+}
+
+.expedition img {
+    width: auto;
+    height: 80px;
+    margin: auto;
+    margin-top: -35px;
+    margin-bottom: 25px;
+}
+
+#title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#addition {
+    font-size: 17px;
+    margin: 5px 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    display: block !important;
+}
+
+label {
+    background-color: #eeeeee !important;
+    width: 92px;
+    height: 46px;
+    border: 1px solid #969696 !important;
+    margin: 10px;
+    padding: 9px !important;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px !important;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px -5px,rgba(0, 0, 0, 0.04) 0px 10px 5px -5px; */
+}
+
+input:checked+label {
+    transition: none;
+    border: 1px solid #FEBE36 !important;
+    background-color: #ffda8a !important;
+    box-shadow: none !important;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px -5px,rgba(0, 0, 0, 0.04) 0px 10px 5px -5px !important; */
+}
+
+.invalid-feedback {
+    font-size: 14px !important;
+    margin-left: 10px;
+}
+
+button {
+    width: 90%;
+    height: 46px;
+    margin-top: 20px !important;
+    border: 4px solid #ffde96 !important;
+    border-radius: 5px !important;
+    background-color: #ffb71d;
+    border: 0px;
+    font-size: 19px !important;
+    font-weight: 500;
+    color: #2E2E2E;
+}
+
+button:active {
+    outline: 4px solid #ffd57a !important;
+}
+
+.footer {
+    background-color: #2E2E2E;
+    color: #E3E3E3;
+    margin-top: 65px;
+    padding: 20px;
+}

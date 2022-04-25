@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Bold';
+}
+
+.bg-dark {
+    background-color: #2E2E2E;
+    color: #E3E3E3
+}
+
+.nav-button {
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-button span {
+    font-size: 35px;
+    color: #2E2E2E;
+}
+
+.dropdown-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 25px 0 !important;
+}
+
+.dropdown-menu.show {
+    left: -13px !important;
+    top: 50px !important;
+
+}
+
+.dropdown-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img:hover {
+    border-radius: 25px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #E3E3E3;
+}
+
+.main-container .nav-bar {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container .nav-bar .nav {
+    width: 56%;
+    height: 55px;
+    display: flex;
+}
+
+.main-container .nav-bar .nav .nav-menu {
+    background-color: rgb(185, 182, 182);
+    font-size: 17px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .nav-bar .nav #page3 {
+    background-color: rgb(226, 226, 226);
+    flex: 1;
+    justify-content: center;
+}
+
+.main-container .nav-bar .pet-type {
+    width: 20%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-container .nav-bar .pet-type img {
+    margin: 10px;
+    float: right;
+}
+
+.main-container .main {
+    width: 40%;
+    height: 63vh;
+    margin: 54px auto 0px;
+    background-color: #E3E3E3;
+}
+
+.main-container .main form div label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+label,
+select,
+input {
+    border-color: rgb(226, 226, 226);
+    filter: drop-shadow(0px 3px 3px #afafaf);
+}
+
+option {
+    margin: 4px 0px;
+}
+
+.back-button {
+    width: 110px;
+    height: 50px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.back-button a button {
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    float: right;
+    background-color: #2E2E2E;
+    color: #FEBE36;
+}
+
+.back-button button:hover {
+    color: #FEBE36;
+}
+
+.main-container .main form .submit-button {
+    width: 110px;
+    height: 32px;
+    margin-top: 50px;
+    float: right;
+    margin-left: 00px;
+}
+
+.main-container .main form div button {
+    width: 110px;
+    height: 32px;
+    border-radius: 9px;
+
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #2E2E2E;
+    color: #E3E3E3;
+    padding: 20px;
+}

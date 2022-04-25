@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("../fonts/stylesheet.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Bold';
+}
+
+.bg-dark{
+    background-color: #2E2E2E;
+    color : #E3E3E3
+}
+
+.nav-button{
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.nav-button span{
+    font-size: 35px;
+    color:#2E2E2E;
+}
+
+.dropdown-menu{
+    background-color: #2E2E2E!important;
+    padding: 10px 10px 30px 10px!important;
+    border-radius: 0 0 25px 0!important;
+}
+
+.dropdown-menu.show {
+    left: -13px!important;
+    top: 50px!important;
+    
+}
+
+.dropdown-menu li{
+    background-color: #FEBE36;
+    margin:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img:hover {
+    border-radius: 25px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #e3e3e3;
+    height: 103vh;
+}
+
+.text {width: 25%;}
+.text img {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.line {
+    width: 55%;
+    height: 7px;
+    border-radius: 25px;
+    background-color: #2E2E2E;
+    margin: 55px 0px 0 50px;
+}
+
+.nav-bar .edit {
+    width: 19%;
+}
+
+.nav-bar .edit a img {
+    width: 80px;
+    height: 80px;
+    float: right;
+    
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.edit-menu{
+    background-color: #2E2E2E!important;
+    padding: 10px 10px 30px 10px!important;
+    border-radius: 0 0 0 25px!important;
+}
+
+.edit-menu.show {
+    left: -72px!important;
+    top: 52px!important;
+}
+
+.edit-menu li{
+    background-color: #FEBE36;
+    margin:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.edit-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+/*  */
+.slideshow-container {
+    width: 82%;
+    height: 420px;
+    margin: 10px auto;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    width: 90%;
+    height: 420px;
+    display : flex;
+}
+
+.slide {
+    background-color: #E3E3E3;
+    height: 420px;
+    padding: 30px;
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.slide .type-pet {
+    width: 100%;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.edit-btn {
+    background-color: #FEBE36;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: #CB3525;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.slide div img {
+    margin-right: 20px;
+}
+
+.nav-btn button {
+    padding: 4px 0px;
+    border-radius: 3px;
+    border: none;
+    background-color: #e3e3e3;
+}
+
+.nav-btn button:hover {
+    background-color: #e0dede;
+}
+
+.back-button{
+    width:110px;
+    height:50px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+
+.back-button button {
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    float:right;
+    background-color: #2E2E2E;
+    color: #FEBE36;
+    font-weight: 500;
+}
+
+.back-button button:hover {
+    color: #FEBE36;
+}

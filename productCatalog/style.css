@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("../fonts/stylesheet.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Bold';
+}
+
+.bg-dark{
+    background-color: #2E2E2E;
+    color : #E3E3E3
+}
+
+.search-input{
+    border-radius: 50px!important;
+    padding-left: 25px!important;
+}
+
+.search-button{
+    margin-left: -50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button span{
+    font-size: 25px;
+    color:#2E2E2E;
+}
+
+.nav-button{
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.nav-button span{
+    font-size: 35px;
+    color:#2E2E2E;
+}
+
+.dropdown-menu{
+    background-color: #2E2E2E!important;
+    padding: 10px 10px 30px 10px!important;
+    border-radius: 0 0 25px 0!important;
+}
+
+.dropdown-menu.show {
+    left: -13px!important;
+    top: 50px!important;
+    
+}
+
+.dropdown-menu li{
+    background-color: #FEBE36;
+    margin:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img:hover {
+    border-radius: 25px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #e3e3e3;
+    height: 120vh;
+}
+
+.choose-bar img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*  */
+.slideshow-container {
+    width: 88%;
+    height: 420px;
+    margin: auto;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    width: 90%;
+    height: 420px;
+    display : flex;
+}
+
+.slide {
+    background-color: #E3E3E3;
+    height: 420px;
+    padding: 30px;
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.slide .type-pet {
+    width: 100%;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.slide div img {
+    margin-right: 20px;
+}
+
+.nav-btn button {
+    padding: 4px 0px;
+    border-radius: 3px;
+    border: none;
+    background-color: #e3e3e3;
+}
+
+.nav-btn button:hover {
+    background-color: #e0dede;
+}
+
+.footer{
+    width: 100%;
+    background-color: #2E2E2E;
+    color : #E3E3E3;
+    padding: 20px;
+}
+
+.cart {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 17px;
+    right: 30px;
+}

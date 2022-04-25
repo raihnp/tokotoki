@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("../fonts/stylesheet.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Bold';
+}
+
+.bg-dark {
+    background-color: #2E2E2E;
+    color: #E3E3E3
+}
+
+.nav-button {
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-button span {
+    font-size: 35px;
+    color: #2E2E2E;
+}
+
+.dropdown-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 25px 0 !important;
+}
+
+.dropdown-menu.show {
+    left: -13px !important;
+    top: 50px !important;
+
+}
+
+.dropdown-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img:hover {
+    border-radius: 25px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #E3E3E3;
+}
+
+.title {
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.title img {
+    width: auto;
+    height: 35px;
+}
+
+.history {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 40px;
+    background-color: #C4C4C4;
+    border-radius: 15px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: block;
+    overflow-Y: scroll;
+    height: 258px;
+}
+
+tbody::-webkit-scrollbar {
+    width: 15px;
+}
+
+tbody::-webkit-scrollbar-track {
+    border-radius: 100px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: #818181;
+}
+
+tr {
+    display: flex;
+}
+
+tr #no {
+    flex: 1;
+}
+
+th,
+td {
+    flex: 5;
+}
+
+th {
+    font-size: 17px;
+}
+
+.footer {
+    background-color: #2E2E2E;
+    color: #E3E3E3;
+    margin-top: 35px;
+    padding: 20px;
+}

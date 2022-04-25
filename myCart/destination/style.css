@@ -1,0 +1,150 @@
+@import "https://fonts.googleapis.com/css?family=Nunito";
+
+body {
+    font-family: 'Nunito';
+    background-color: #C4C4C4;
+}
+
+.bg-dark {
+    background-color: #2E2E2E;
+    color: #E3E3E3
+}
+
+.search-input {
+    border-radius: 50px !important;
+    padding-left: 25px !important;
+}
+
+.search-button {
+    margin-left: -50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button span {
+    font-size: 25px;
+    color: #2E2E2E;
+}
+
+.nav-button {
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-button span {
+    font-size: 35px;
+    color: #2E2E2E;
+}
+
+.dropdown-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 25px 0 !important;
+}
+
+.dropdown-menu.show {
+    left: -13px !important;
+    top: 50px !important;
+
+}
+
+.dropdown-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img :hover {
+    border-radius: 28px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #C4C4C4;
+}
+
+.container {
+    height: 422px;
+    padding: 52px 0 5px;
+    box-sizing: content-box;
+}
+
+.box {
+    background-color: #E3E3E3;
+    width: 40%;
+    margin: auto;
+    padding: 20px 40px 40px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px -5px, rgba(0, 0, 0, 0.04) 0px 10px 5px -5px;
+}
+
+#title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#addition {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+}
+
+span {
+    color: red;
+}
+
+.address {
+    padding-bottom: 10px;
+}
+
+#street {
+    width: 90% !important;
+}
+
+button {
+    background-color: #FEBE36;
+    border: 0px;
+    height: 40px;
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.shipping {
+    box-sizing: content-box;
+    padding: 10px;
+    border-top: 1px solid #adacac;
+}
+
+.footer {
+    background-color: #2E2E2E;
+    color: #E3E3E3;
+    margin-top: 80px;
+    padding: 20px;
+}

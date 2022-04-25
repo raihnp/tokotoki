@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+}
+
+.bg-dark {
+    background-color: #2E2E2E;
+    color: #E3E3E3
+}
+
+.nav-button {
+    background-color: #FEBE36;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #E3E3E3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-button span {
+    font-size: 35px;
+    color: #2E2E2E;
+}
+
+.dropdown-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 25px 0 !important;
+}
+
+.dropdown-menu.show {
+    left: -13px !important;
+    top: 50px !important;
+}
+
+.dropdown-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dropdown-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.dropdown-menu li img:hover {
+    border-radius: 25px;
+}
+
+/*  */
+
+.main-container {
+    background-color: #E3E3E3;
+    height: 161vh;
+}
+
+.nav-bar {
+    justify-content: space-between;
+}
+
+.nav-bar .pet-type {
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.nav-bar .pet-type img {
+    margin: 0px 10px;
+}
+
+.slideshow-container {
+    width: 35%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #c4c4c4;
+}
+
+.nav-btn button {
+    padding: 4px 0px;
+    border-radius: 3px;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+.nav-btn button:hover {
+    background-color: #e0dede;
+}
+
+.nav-bar .edit {
+    width: 25%;
+}
+
+.nav-bar .edit a img {
+    width: 70px;
+    height: 70px;
+    float: right;
+
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.edit-menu {
+    background-color: #2E2E2E !important;
+    padding: 10px 10px 30px 10px !important;
+    border-radius: 0 0 0 25px !important;
+}
+
+.edit-menu.show {
+    left: -65px !important;
+    top: 52px !important;
+}
+
+.edit-menu li {
+    background-color: #FEBE36;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.edit-menu li :hover {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+.table-responsive {
+    width: 85%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+}
+
+tbody {
+    display: block;
+    height: 650px;
+    overflow-y: auto;
+}
+
+tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    height: 100px;
+    background: #919191;
+    border-radius: 10px;
+}
+
+tbody::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+tr {
+    display: flex;
+}
+
+th,
+td {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+tr .short {
+    flex: 1;
+}
+
+tr .long {
+    flex: 3;
+}
+
+tr .fix {
+    flex-basis: 122px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+td img {
+    max-width: 122px;
+    height: auto;
+}
+
+.edit-btn {
+    background-color: #FEBE36;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+
+.delete-btn {
+    background-color: #CB3525;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    width: 110px;
+    height: 50px;
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+    background-color: #2E2E2E;
+    color: #FEBE36;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2E2E2E;
+    color: #E3E3E3;
+    margin-top: 100px;
+    padding: 20px;
+}
